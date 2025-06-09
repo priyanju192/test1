@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages {
          
          stage('files scan') {
             steps {
@@ -9,4 +10,5 @@ pipeline {
                 }
             }
          }
+    }
 }
