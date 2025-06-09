@@ -4,7 +4,7 @@ pipeline {
          stage('files scan') {
             steps {
                 script {
-                     ls
+                     sh 'ls'
                      echo "testing for reference"
                 }
             }
